@@ -682,7 +682,7 @@ li.social-links a {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 120px 0;
+    padding: 20px 0;
 }
 
 .noover {
@@ -754,7 +754,6 @@ li.social-links a {
 .section-title {
     display: block;
     position: relative;
-    margin-bottom: 60px;
 }
 
 .section-title p {

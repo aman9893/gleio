@@ -8,6 +8,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReviewComponent } from './review/review.component';
+import { FqAskComponent } from './fq-ask/fq-ask.component';
+import { FooterComponent } from './footer/footer.component';
+import { YoutubeVideoComponent } from './youtube-video/youtube-video.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ReviewComponent } from './review/review.component';
     NavbarComponent,
     HomeComponent,
     ContactUsComponent,
-    ReviewComponent
+    ReviewComponent,
+    FqAskComponent,
+    FooterComponent,
+    YoutubeVideoComponent
   ],
   imports: [
     BrowserModule,
