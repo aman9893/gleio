@@ -11,6 +11,11 @@ import { ReviewComponent } from './review/review.component';
 import { FqAskComponent } from './fq-ask/fq-ask.component';
 import { FooterComponent } from './footer/footer.component';
 import { YoutubeVideoComponent } from './youtube-video/youtube-video.component';
+import { ContactPageComponent } from './page/contact-page/contact-page.component';
+import { FeaturesComponent } from './page/features/features.component';
+import { AboutUsComponent } from './page/about-us/about-us.component';
+import { PortfiloComponent } from './page/portfilo/portfilo.component';
+import { SolutionComponent } from './page/solution/solution.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +27,16 @@ import { YoutubeVideoComponent } from './youtube-video/youtube-video.component';
     ReviewComponent,
     FqAskComponent,
     FooterComponent,
-    YoutubeVideoComponent
+    YoutubeVideoComponent,
+    ContactPageComponent,
+    FeaturesComponent,
+    AboutUsComponent,
+    PortfiloComponent,
+    SolutionComponent
   ],
   imports: [
     BrowserModule,
-    ROUTING
+    ROUTING,
   ],
   providers: [],
   bootstrap: [AppComponent]
