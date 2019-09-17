@@ -1309,6 +1309,7 @@ li.social-links a {
 
 .message-box p {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .message-box .lead {
@@ -1325,7 +1326,7 @@ li.social-links a {
 
 .post-media img {
     /* width: 100%; */
-    height: 415px;
+    /* height: 371px; */
 }
 
 .playbutton {
